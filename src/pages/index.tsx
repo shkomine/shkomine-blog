@@ -8,14 +8,14 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <img
+        {/* <img
           src="/vercel-and-notion.png"
           height="85"
           width="250"
           alt="Vercel + Notion"
-        />
-        <h1>My Notion Blog</h1>
-        <h2>
+        /> */}
+        <h1>shkomine blog</h1>
+        {/* <h2>
           Blazing Fast Notion Blog with Next.js'{' '}
           <ExtLink
             href="https://github.com/vercel/next.js/issues/9524"
@@ -24,12 +24,12 @@ export default function Index() {
           >
             SSG
           </ExtLink>
-        </h2>
+        </h2> */}
 
-        <Features />
+        {/* <Features /> */}
 
         <div className="explanation">
-          <p>
+          {/* <p>
             This is a statically generated{' '}
             <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
             <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
@@ -59,7 +59,7 @@ export default function Index() {
             and look for a cookie under www.notion.so with the name `token_v2`.
             After finding your token and your blog's page id you should be good
             to go!
-          </p>
+          </p> */}
         </div>
       </div>
     </>
